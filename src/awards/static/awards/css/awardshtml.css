@@ -1,0 +1,85 @@
+body{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini-dark.png);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+  } 
+
+/* css for mobile on home page */
+@media only screen and (min-width : 320px) {
+
+    [id="homeawardcontainer"]{
+        margin-top: 50%;
+    }
+
+    [id="awardshomeimg"]{
+        height:250%;
+        width:100%
+    }
+    [id="awardshomecard"]{
+        height:200%;
+        width:100%
+    }
+    [id="resultsgraph"]{
+        height:250%;
+        width:100%;
+        margin-top: 20%;
+    }
+    [id="formnomineesimg"]{
+        height:250px;
+        width:250px;
+        padding:1%
+    }
+    [id="discordwidget"]{
+        height:0px;
+        width:0px
+    }
+
+
+    
+}
+/* css for desktop on home page */
+@media only screen and (min-width : 600px){
+
+    [id="discordwidget"]{
+        width: 350px;
+        height:500px;
+        float:right;
+        margin-right: 1%;
+    }
+
+    [id="homeawardcontainer"]{
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+
+    [id="awardshomeimg"]{
+        max-height:250px;
+        max-width:100%;
+    }
+    [id="awardshomecard"]{
+        height:65%;
+        width:35%;
+    }
+    [id="resultsgraph"]{
+        height:500px;
+        width:500px
+    }
+    [id="formnomineesimg"]{
+        height:200px;
+        width:200px;
+        padding:1%
+    }
+    [id="votingform"]{
+        float:inline-start;
+        display:inline
+    }
+    [id="votingsubmit"]{
+        margin-top:250px;
+        margin-left:-600px
+
+    }
+
+
+}
+
